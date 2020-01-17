@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="35dp"/>
+    <EditText
+        android:id="@+id/txtconfirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirmpassword"
+        android:layout_marginTop="35dp"/>
+
+
+    <Button
+        android:id="@+id/btdaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DAFTAR"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="145dp"/>
+
+</LinearLayout>
